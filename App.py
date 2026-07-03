@@ -3,7 +3,7 @@ import qrcode
 from PIL import Image
 
 # page title
-st.title("Qr code generator")
+st.title("KARNAN Qr code generator")
 data=st.text_input("enter url")
 if st.button("Generate QR"):
     if data:
